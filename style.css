@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: url(https://images.ctfassets.net/hrltx12pl8hq/4NhtYxiAxVzEzQQVFl5c0h/e70608b02fa41bd0841a56824e78bbff/UHP-Abstract-_0_00_00_00_.jpg?fit=fill&w=1200&h=630);
+    background-size: cover;
+
+}
+.logo
+{
+    text-indent: -999999px;
+    background: url('Logo.png'); 
+    height: 120px;
+}
+
+.box{
+    width: 300px;
+    padding:30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(red, green, blue, alpha);
+    text-align: center;
+}
+.box h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"],.box input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus
+{
+    width: 270px;
+    border-color: #ffc400ec;
+
+}
+
+.box input[type="submit"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #ffc400ec;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: #ffc400ec;
+}
+    
